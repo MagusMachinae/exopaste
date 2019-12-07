@@ -8,6 +8,6 @@
                  [aleph "0.4.6"]
                  [hiccup "1.0.5"]
                  [bidi "2.1.3"]]
-  :main ^:skip-aot exopaste.core
+  :main exopaste.main
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

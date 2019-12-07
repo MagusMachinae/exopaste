@@ -1,7 +1,8 @@
 (ns exopaste.main
-  (:require [exopaste.systen :refer [init-system start!]]))
+  (:require [exopaste.system :as system]))
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (start!))
+  (system/init-system)
+  (system/start!))
