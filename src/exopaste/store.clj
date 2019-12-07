@@ -1,5 +1,5 @@
 (ns exopaste.store
-  (:require [com.stuartsierra/component :as component]))
+  (:require [com.stuartsierra.component :as component]))
 
 (defn add-new-paste
   "Insert a new paste in database, return UUID"

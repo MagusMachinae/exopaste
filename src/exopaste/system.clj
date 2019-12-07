@@ -1,5 +1,5 @@
 (ns exopaste.system
-  (:require [com.stuartsierra/component :as component]
+  (:require [com.stuartsierra.component :as component]
             [exopaste.store :as store]
             [exopaste.server :as server]
             [clojure.tools.logging :refer [error]]))

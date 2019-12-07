@@ -5,12 +5,12 @@
 (defn render-paste
   "Given a map representing a paste, return HTML string to display paste"
   [paste]
-  (page/html5 [head
+  (page/html5 [:head
                (page/include-js "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/highlight.min.js")
                (page/include-js "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/go.min.js")
                (page/include-js "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/clojure.min.js")
                (page/include-js "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/yaml.min.js")
-               (page/page/include-css "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/default.min.css")
+               (page/include-css "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/default.min.css")
                [:meta {:charset "UTF-8"}]
                [:script "hljs.initHighlightingOnLoad();"]]
               [:body

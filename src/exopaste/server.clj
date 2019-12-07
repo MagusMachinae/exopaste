@@ -1,5 +1,5 @@
 (ns exopaste.server
-  (:require [com.stuartsierra/component :as component]
+  (:require [com.stuartsierra.component :as component]
             [bidi.ring :as ring]
             [aleph.http :as http]
             [ring.util.response :as res]
